@@ -15,7 +15,9 @@
     
     
     
-    # Differences between grep, pgrep, egrep, and fgrep (Linux):
+# Differences between grep, pgrep, egrep, and fgrep (Linux):
+
+
 ## grep
 grep is an acronym that stands for "Global Regular Expressions Print". grep is a program which scans a specified file or files line by line, returning lines that contain a pattern. A pattern is an expression that specifies a set of strings by interpreting characters as meta-characters. For example the asterisk meta character (*) is interpreted as meaning "zero or more of the preceding element". This enables users to type a short series of characters and meta characters into a grep command to have the computer show us what lines in which files match.
 
