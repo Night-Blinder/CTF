@@ -31,6 +31,9 @@ grep prints the search results to the screen (stdout) and returns the following 
 Some common flags are: -c for counting the number of successful matches and not printing the actual matches, -i to make the search case insensitive, -n to print the line number before each match printout, -v to take the complement of the regular expression (i.e. return the lines which don't match), and -l to print the file names of files with lines which match the expression.
 
 ## egrep
+
+View lines of data which match a particular pattern.
+
 egrep is an acronym that stands for "Extended Global Regular Expressions Print".
 
 The 'E' in egrep means treat the pattern as a regular expression. "Extended Regular Expressions" abbreviated 'ERE' is enabled in egrep. egrep (which is the same as grep -E) treats +, ?, |, (, and ) as meta-characters.
@@ -46,6 +49,7 @@ egrep "+" myfile.txt
 Here every line is returned because the + was treated by egrep as a meta character. normal grep would have searched only for lines with a literal +.
 
 ## fgrep
+
 fgrep is an acronym that stands for "Fixed-string Global Regular Expressions Print".
 
 fgrep (which is the same as grep -F) is fixed or fast grep and behaves as grep but does NOT recognize any regular expression meta-characters as being special. The search will complete faster because it only processes a simple string rather than a complex pattern.
