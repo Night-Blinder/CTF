@@ -9,3 +9,5 @@
 [QR code scanner](https://webqr.com/)
 
 [GIF edit](https://ezgif.com)
+
+[mp3 waveform generator](https://convert.ing-now.com/mp3-audio-waveform-graphic-generator/)
